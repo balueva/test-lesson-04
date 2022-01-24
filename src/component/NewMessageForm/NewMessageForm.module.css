@@ -1,0 +1,29 @@
+.newMessage {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    .newMessage > textarea {
+      padding: 10px;
+    }
+
+    .newMessage > button {
+      margin-left: 10px;
+      align-self: center;
+
+      padding: 10px;
+      border: 1px solid green;
+    }
+
+    .newMessage > button:hover:enabled {
+        opacity: 0.7;
+    }
+
+    .newMessage > button[disabled] {
+      border: 1px solid lightgrey;
+    }
+
+    

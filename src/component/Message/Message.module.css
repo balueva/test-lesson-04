@@ -1,0 +1,14 @@
+.message {
+    margin: 10px;
+    max-width: fit-content;
+}     
+
+.message > div:last-child {
+    padding-bottom: 16px;
+}
+
+
+.text {
+    padding: 10px 0;
+}
+    
